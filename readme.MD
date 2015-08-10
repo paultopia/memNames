@@ -10,10 +10,7 @@ Note: for security and student privacy purposes, all files should be located in 
 
 Why?  Because javascript is ugly, and CGI died too soon.  
 
-
-FUTURE FUNCTIONALITY:
-
-It will also keep your score, so that you can see the students who you're struggling with the most.  And there are two modes: uniform pick gives you each student with equal probability, weighted pick gives you the students whose names you have the most trouble with more often.  
+New functionality: it will also keep your score, so that you can see the students with whom you're struggling the most.  And there are two modes: uniform pick gives you each student with equal probability, weighted pick gives you the students whose names you have the most trouble with more often.  The weighting function is a little gnarly, so it might blow up, just let me know if it does.  Also, I don't *think* it'll run into horrible basins of attraction that just display the same student over and over, most of the gnarliness of the weights function is an attempt to prevent that, but I haven't actually tested it over large iterations, so if it does, just use uniform.
 
 
 

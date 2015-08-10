@@ -1,6 +1,6 @@
 [
     {"Password": "SECRET", "Imagepath": "http://YOUR.PATH.TO.IMAGES/"},
-    {"Firstname": "Jane", "Lastname": "Doe", "Photo": "101.jpg", "Score": {"Right": "0", "Wrong": "0", "Skip": "0"}},
-    {"Firstname": "John", "Lastname": "Roberts", "Photo": "CJ.jpg", "Score": {"Right": "0", "Wrong": "0", "Skip": "0"}},
-    {"Firstname": "Michael", "Lastname": "Jackson", "Photo": "201.jpg", "Score": {"Right": "0", "Wrong": "0", "Skip": "0"}}
+    {"Firstname": "Jane", "Lastname": "Doe", "Photo": "101.jpg", "Score": {"Right": 0.0, "Wrong": 0.0, "Skip": 0.0}},
+    {"Firstname": "John", "Lastname": "Roberts", "Photo": "CJ.jpg", "Score": {"Right": 0.0, "Wrong": 0.0, "Skip": 0.0}},
+    {"Firstname": "Michael", "Lastname": "Jackson", "Photo": "201.jpg", "Score": {"Right": 0.0, "Wrong": 0.0, "Skip": 0.0}}
 ]

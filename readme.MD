@@ -8,7 +8,7 @@ Free to all under the MIT license.
 
 Note: for security and student privacy purposes, all files should be located in password-protected directories if it's on a publicly accessible webserver.  It's your responsibility to adequately secure this stuff.  The password at the beginning of the JSON is an extra layer of security, but it's a really weak and dumb layer (it's stored in clear and passed via http GET for goodness's sakes, although it shouldn't be too hard to change those things), and should not be relied upon.
 
-Why?  Because javascript is ugly, and CGI died too soon.
+Why?  Because javascript is ugly, and CGI died too soon.  
 
 
 FUTURE FUNCTIONALITY:

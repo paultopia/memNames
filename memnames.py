@@ -87,8 +87,8 @@ def printStudent(sid):
     image = imgp + students[sid]['Photo']
     print "<img src=\"%s\"><br>" % image
     print "<form action=\"memnames.cgi\" method=\"get\">"
-    print "First Name: <input type=\"text\" name=\"fname\"><br>"
-    print "Last Name: <input type=\"text\" name=\"lname\"><br>"
+    print "First Name: <input type=\"text\" name=\"fname\" autocomplete=\"off\"><br>"
+    print "Last Name: <input type=\"text\" name=\"lname\" autocomplete=\"off\"><br>"
     print "<input type=\"hidden\" name=\"id\" value=\"%s\">" % sid
     print "<input type=\"hidden\" name=\"pw\" value=\"%s\">" % password
     print "<input type=\"hidden\" name=\"file\" value=\"%s\">" % filename
